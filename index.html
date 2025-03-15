@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Spryfin</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header box">
+      <div class="container">
+        <div class="header__top">
+          <div class="logo">
+            <img src="logo.png" alt="" class="logo__img" />
+            <p class="logo__text">SPRYFIN</p>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#" class="menu__link">Заказать доставку</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Заказчику</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Курьеру</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Тарифы</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+            </ul>
+          </nav>
+          <a class="header__btn" href="#">Личный кабинет</a>
+        </div>
+        <div class="header__bottom">
+          <h1 class="header__title">
+            Курьерская доставка по
+            <br />Минску для бизнеса и не только <br />Доставим вовремя и быстро!
+          </h1>
+          <div class="calculator">
+            <div class="calculator__container">
+              <h2 class="calculator__title">Расчёт стоимости</h2>
+              <div class="calculator__inputs">
+                <input type="text" class="calculator__input" placeholder="Откуда" />
+                <input type="text" class="calculator__input" placeholder="Куда" />
+              </div>
+              <div class="calculator__buttons">
+                <button class="calculator__btn calculator__btn--courier">
+                  <img src="courier.png" alt="" class="calculator__btn-img" />
+                  <p class="calculator__btn-title">Курьер</p>
+                </button>
+                <button class="calculator__btn calculator__btn--car">
+                  <img src="car.png" alt="" class="calculator__btn-img car" />
+                  <p class="calculator__btn-title">Автомобиль</p>
+                </button>
+              </div>
+            </div>
+            <button class="calculator__btn submit">Рассчитать</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="about">
+        <img class="about__img" src="skuter.png" alt="" />
+        <div class="about__right-col">
+          <h2 class="about__title">О нашей компании</h2>
+          <p class="about__text">
+            Мы молодая динамично развивающаяся курьерская служба в г. Минск. Ставим перед собой
+            задачу удовлетворять потребности клиентов, а также стремимся к долгосрочному
+            сотрудничеству.<br />Наша компания занимается быстрой доставкой в Минске, и за его
+            пределами.<br />Работая с нами - Вы приобретаете надежного партнера!
+          </p>
+        </div>
+      </div>
+      <div class="advantage">
+        <div class="advantage__up">
+          <h2 class="advantage__title">Преимущества</h2>
+          <p class="advantage__text">
+            Беспрецедентная скорость выполнения заказов. <br />Экстремально низкая стоимость
+            доставки.
+          </p>
+        </div>
+        <div class="advantage__preview">
+          <div class="advantage__preview preview__up">
+            <div class="advantage__info">
+              <img class="preview__img" src="cargo.png" alt="" />
+              <p class="preview__text">
+                Компенсируем объявленную вами ценность в случае потери или повреждения груза
+              </p>
+            </div>
+            <div class="advantage__info">
+              <img class="preview__img" src="package.png" alt="" />
+              <p class="preview__text">Курьер бесплатно заберёт ваш груз и исполнит ваш заказ</p>
+            </div>
+            <div class="advantage__info">
+              <img class="preview__img" src="planning.png" alt="" />
+              <p class="preview__text">
+                Планируйте доставку на несколько день вперед или вызывайте курьера сегодня
+              </p>
+            </div>
+          </div>
+          <div class="advantage__preview preview__bottom">
+            <div class="advantage__info">
+              <img class="preview__img" src="without_contract.png" alt="" />
+              <p class="preview__text">Оформляйте курьерскую доставку без регистрации и договора</p>
+            </div>
+            <div class="advantage__info">
+              <img class="preview__img" src="support.png" alt="" />
+              <p class="preview__text">Наши менеджеры всегда помогут Вам онлайн или по телефону</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <h2 class="map__title">Зона доставки</h2>
+        <img src="map.png" alt="" class="map__img" />
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__up">
+        <div class="footer__left-col">
+          <p class="footer__text">
+            Время работы <br />График приема заказов: круглосуточно <br />График выполнения заказов:
+            с 8:00 до 22:00 <br />График приема звонков: круглосуточно
+          </p>
+        </div>
+        <div class="footer__center-col">
+          <p class="footer__text center">
+            НАШИ КОНТАКТЫ <br />Сall-центр: +375445520248 Email: spryfin.info@gmail.com
+          </p>
+        </div>
+        <div class="footer__right-col">
+          <p class="footer__text">Мы в социальных сетях:</p>
+          <div class="footer__social">
+            <img class="social__img" src="tel.png" alt="" />
+            <img class="social__img" src="inst.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__text">©2023 Сервис вызова курьера «Spryfin»</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
