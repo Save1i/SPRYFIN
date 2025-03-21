@@ -135,53 +135,52 @@ body {
   font-size: 20px;
   color: #ff802b;
 }
-.header__bottom {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 100px;
-}
-.header__title {
-  font-size: 36px;
-  font-weight: 600;
-}
 
-.tariff {
+.review {
   width: 100%;
   margin-top: 60px;
   margin-bottom: 100px;
 }
-.tariff__inner {
-  display: flex;
-  flex-direction: column;
+.review__inner {
 }
-.tariff__title {
+.review__title {
   font-size: 34px;
+  display: block;
+}
+.review__btn {
+  border-radius: 16px;
+  padding: 15px 25px;
+  margin-top: 20px;
+  background: #fb6705;
+  font-size: 16px;
+  font-weight: 100;
+  border: none;
 }
 
-.tariff__table {
-  border-collapse: collapse;
-  margin-top: 15px;
+.review__container {
+  margin-top: 80px;
 }
-.tariff__row {
-  height: 75px;
+.review__el {
+  margin-top: 60px;
 }
-
-.tariff__row-big {
-  height: 90px;
+.review__up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
 }
-.tariff_col {
-  text-align: center;
-  border: 1px solid #858181;
-  font-size: 22px;
-  line-height: 25px;
-}
-
-.tariff_col strong {
+.review__name {
   font-size: 20px;
+  color: #fc6804;
 }
-
-.small {
-  font-size: 14px;
+.review__data {
+  font-size: 18px;
+  font-weight: 500;
+}
+.review__text {
+  display: block;
+  padding-right: 120px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .footer {
