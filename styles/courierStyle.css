@@ -144,45 +144,108 @@ body {
   font-size: 36px;
   font-weight: 600;
 }
-
-.tariff {
+.customer {
   width: 100%;
   margin-top: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
-.tariff__inner {
+.customer__inner {
+}
+.customer__deliver {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
 }
-.tariff__title {
-  font-size: 34px;
+.customer__title {
+  font-size: 32px;
 }
-
-.tariff__table {
-  border-collapse: collapse;
-  margin-top: 15px;
-}
-.tariff__row {
-  height: 75px;
-}
-
-.tariff__row-big {
-  height: 90px;
-}
-.tariff_col {
-  text-align: center;
-  border: 1px solid #858181;
+.customer__text {
+  margin-top: 20px;
   font-size: 22px;
-  line-height: 25px;
-  width: 33.3%;
+  font-weight: 500;
 }
-
-.tariff_col strong {
+.customer__text strong {
+  color: #fc6804;
+}
+.advantage {
+  margin-bottom: 100px;
+}
+.advantage__preview {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 40px;
+}
+.advantage__up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.advantage__title {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.advantage__text {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+}
+.advantage {
+  width: 100%;
+}
+.advantage__preview.preview__up {
+  display: flex;
+  justify-content: space-between;
+}
+.advantage__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 285px;
+}
+.preview__img {
+  height: 112px;
+}
+.preview__text {
   font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
 }
-
-.small {
-  font-size: 14px;
+.preview__text strong {
+  font-size: 24px;
+  font-weight: 700;
+}
+.delivery__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.delivery__title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  max-width: 800px;
+  text-align: center;
+}
+.centre {
+  text-align: center;
+}
+.delivery__btn {
+  border-radius: 16px;
+  padding: 15px 65px;
+  margin-top: 20px;
+  background: #fb6705;
+  font-size: 16px;
+  font-weight: 100;
+  border: none;
+  max-width: 300px;
+  display: inline;
+  margin: 20px auto 0;
+  display: block;
 }
 
 .footer {

@@ -142,6 +142,7 @@ body {
   margin-bottom: 100px;
 }
 .review__inner {
+  margin-bottom: 100px;
 }
 .review__title {
   font-size: 34px;
@@ -181,6 +182,27 @@ body {
   padding-right: 120px;
   font-size: 18px;
   font-weight: 500;
+}
+
+.delivery__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.delivery__title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.delivery__btn {
+  border-radius: 16px;
+  padding: 15px 25px;
+  margin-top: 20px;
+  background: #fb6705;
+  font-size: 16px;
+  font-weight: 100;
+  border: none;
+  max-width: 200px;
 }
 
 .footer {
