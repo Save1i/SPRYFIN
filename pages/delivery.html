@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Spryfin</title>
+    <link rel="stylesheet" href="/styles/deliveryStyle.css" />
+  </head>
+  <body>
+    <header class="header box">
+      <div class="container">
+        <div class="header__top">
+          <div class="logo">
+            <img src="../photos/logo.png" alt="" class="logo__img" />
+            <a href="/index.html" class="logo__text">SPRYFIN</a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="/pages/delivery.html" class="menu__link">Заказать доставку</a>
+              </li>
+              <li class="menu__item">
+                <a href="/pages/customer.html" class="menu__link">Заказчику</a>
+              </li>
+              <li class="menu__item">
+                <a href="/pages/courier.html" class="menu__link">Курьеру</a>
+              </li>
+              <li class="menu__item"><a href="/pages/tariff.html" class="menu__link">Тарифы</a></li>
+              <li class="menu__item">
+                <a href="/pages/reviews.html" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="header__btn" href="#">Личный кабинет</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="delivery box">
+        <div class="delivery__inner">
+          <div class="delivery__forms">
+            <div class="sender">
+                <h2 class="form__title">Отправитель</h2>
+                <form class="form">
+                  <input type="text" placeholder="Адрес отправителя" required />
+                  
+                  <div class="row">
+                    <input type="text" placeholder="Подъезд" />
+                    <input type="text" placeholder="Этаж" />
+                    <input type="text" placeholder="Кв./офис" />
+                  </div>
+            
+                  <div class="row">
+                    <input type="text" placeholder="Сегодня" />
+                    <input type="time" placeholder="08:00" />
+                    <span class="tere">—</span>
+                    <input type="time" placeholder="10:00" />
+                  </div>
+            
+                  <input type="tel" placeholder="+375 (__) ___-__-__" required />
+            
+                  <input type="text" placeholder="Имя отправителя" required />
+                  
+                  <textarea placeholder="Комментарий к заказу"></textarea>
+                </form>
+              </div>
+            <div class="recipient">
+                <h2 class="form__title">Отправитель</h2>
+                <form class="form">
+                    <input type="text" placeholder="Адрес получателя" required />
+                    
+                    <div class="row">
+                      <input type="text" placeholder="Подъезд" />
+                      <input type="text" placeholder="Этаж" />
+                      <input type="text" placeholder="Кв./офис" />
+                    </div>
+              
+                    <input type="tel" placeholder="+375 (__) ___-__-__" required />
+              
+                    <h2 class="form__title">Что везём:</h2>
+                    <input type="text" placeholder="Что везём" required />
+              
+                    <div class="category">
+                      
+                      <label for="documents">Документы</label>
+              
+                     
+                      <label for="fragile">Хрупкий груз</label>
+              
+                      
+                      <label for="large">Большой груз</label>
+              
+                      
+                      <label for="other">Другое</label>
+                    </div>
+              
+                    <div class="row">
+                      <input type="text" placeholder="Ценность товара" />
+                      <input type="text" placeholder="от 0.5 кг" />
+                    </div>
+              
+                   
+                  </form>
+            </div>
+            <div class="payment">
+                <p class="payment__text">Отправитель наличными</p>
+                <p class="payment__text">Получатель наличными</p>
+                <p class="payment__text">Банковская карта</p>
+            </div>
+
+          </div>
+          <div class="delivery__info">
+            <img class="delivery__img" src="../photos/map.png" alt="">
+            <div class="price">
+                <p class="delivery__price">Цена доставки:</p>
+                <p class="delivery__price">12 p.</p>
+            </div>
+            <div class="buttons">
+                <button class="review__btn">Сделать заказ</button> 
+                <button class="review__btn_1">Сбросить</button>  
+            </div>
+        </div>
+        </div>
+
+    </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__up">
+        <div class="footer__left-col">
+          <p class="footer__text">
+            Время работы <br />График приема заказов: круглосуточно <br />График выполнения заказов:
+            с 8:00 до 22:00 <br />График приема звонков: круглосуточно
+          </p>
+        </div>
+        <div class="footer__center-col">
+          <p class="footer__text center">
+            НАШИ КОНТАКТЫ <br />Сall-центр: +375445520248 Email: spryfin.info@gmail.com
+          </p>
+        </div>
+        <div class="footer__right-col">
+          <p class="footer__text">Мы в социальных сетях:</p>
+          <div class="footer__social">
+            <img class="social__img" src="../photos/tel.png" alt="" />
+            <img class="social__img" src="../photos/inst.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__text">©2023 Сервис вызова курьера «Spryfin»</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
